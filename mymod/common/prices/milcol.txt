@@ -1,0 +1,3 @@
+create_military_settlers = {
+	manpower = 2
+}

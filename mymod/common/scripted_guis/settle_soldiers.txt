@@ -1,0 +1,19 @@
+settle_soldiers = {
+	scope = province
+	saved_scopes = {
+		player
+	}
+	is_shown = {
+		owner = scope:player
+	}
+	ai_is_valid = {
+		always = no
+	}
+	is_valid = {
+		always = yes
+	}
+	effect = {
+		owner = {  pay_price = create_military_settlers }
+		create_pop = freemen
+	}
+}

@@ -1,0 +1,38 @@
+﻿# Scriptable Levy template, used to determine levy composition for different cultures.
+# 	Each entry is either a levy tier "basic", "advanced", "special" which means that any subunit 
+# 	marked as such could be chose to fill that slot, or it can be specific subunit type such as "archers".
+#
+#	NOTE: All numbers are relative percentages, ex. 0.2 means that 20% of this template should be a certain tier or unit
+#	2nd NOTE: Support units will be added automatically in code when a certain size of Levy is raised, replacing another unit
+#	3rd NOTE: If a specific subunit cannot be constructed for some reason another one that can from that tier will replace it ( if possible )
+#
+
+levy_caucasian = {	#Iberia, Kartli & Colchis 
+	default = no
+
+	light_infantry = 0.4
+	archers = 0.05
+	heavy_infantry = 0.05
+	
+	horse_archers = 0.2
+	heavy_cavalry = 0.3
+}
+
+levy_albanian = {
+	default = no
+
+	light_infantry = 0.3
+	archers = 0.3
+	
+	light_cavalry = 0.05
+	horse_archers = 0.2
+	heavy_cavalry = 0.05
+}
+
+levy_svan = {
+	default = no
+
+	light_infantry = 0.45
+	archers = 0.3
+	heavy_infantry = 0.25
+}

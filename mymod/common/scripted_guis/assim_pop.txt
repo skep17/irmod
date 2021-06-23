@@ -1,0 +1,16 @@
+assim_pop = {
+	scope = province
+	saved_scopes = {
+		province
+	}
+	ai_is_valid = {
+		always = no
+	}
+	is_valid = {
+		always = yes
+	}
+	effect = {
+		set_pop_culture = scope:province.owner.culture
+		set_pop_religion = scope:province.owner.religion
+	}
+}

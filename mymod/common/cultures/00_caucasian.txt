@@ -1,0 +1,77 @@
+﻿caucasian = {
+	
+	levy_template = levy_caucasian
+	
+	primary = light_infantry
+	second = heavy_cavalry
+	flank = horse_archers
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	color = hsv { 0.12 0.45 0.68 }
+	
+	family = {
+			Arsacid.Arsacid.Arsacids.Arsacid
+			Artocid.Artocid.Artocids.Artocid
+			Arshakid.Arshakid.Arshakids.Arshakid
+			Amazaspid.Amazaspid.Amazaspids.Amazaspid
+			Aspacurid.Aspacurid.Aspacurids.Aspacurid
+			Archilid.Archilid.Archilids.Archilid
+			Adarnasean.Adarnasean.Adarnaseans.Adarnasid
+			Aietian.Aietian.Aietians.Aietid
+			Akesian.Akesian.Akesians.Akesid
+			Absyrtusid.Absyrtusid.Absyrtusids.Absyrtusid
+			Ashotid.Ashotid.Ashotids.Ashotid
+			Bacurid.Bacurid.Bacurids.Bacurid
+			Bagratid.Bagratid.Bagratids.Bagratid
+			Dachid.Dachid.Dachids.Dachid
+			Ghadamid.Ghadamid.Ghadamids.Ghadamid
+			Gurnenid.Gurgenid.Gurgenids.Gurgenid
+			Gubazid.Gubazid.Gubazids.Gubazid
+			Kujid.Kujid.Kujids.Kujid
+			Mihrdatid.Mihrdatid.Mihrdatids.Mihrdatid
+			Mihrid.Mihrid.Mihrids.Mihrid
+			Mirianid.Mirianid.Mirianids.Mirianid
+			Mithridatid.Mithridatid.Mithridatids.Mithridatid
+			Macharid.Macharid.Macharids.Macharid
+			Nersian.Nersian.Nersians.Nersid
+			Pharnavazid.Pharnavazid.Pharnavazids.Pharnavazid
+			Pharnajomid.Pharnajomid.Pharnajomids.Pharnajomid
+			Pharsmanid.Pharsmanid.Pharsmanids.Pharsmanid
+			Pharnacid.Pharnacid.Pharnacids.Pharnacid
+			Revid.Revid.Revids.Revid
+			Saurmacid.Saurmacid.Saurmacids.Saurmacid
+			Sumbatid.Sumbatid.Sumbatids.Sumbatid
+			Saulacid.Saulacid.Saulacids.Saulacid
+			Trdatid.Trdatid.Trdatids.Trdatid
+			Tsatid.Tsatid.Tsatids.Tsatid
+		}
+		male_names = {
+			Pharnavaz Sauromaces Mirian Pharnajom Artaxias Artoces Arshak Pharsmanes Mihrdat Amazasp Ghadam Rev Vache Bacurius Aspacures 
+			Trdat Archil Mihr Vakhtang Dachi Adarnase Nerse Sumbat Gurgen Tsate Gubaz Kuji Anicetus Aiet Mithridates Machares Pharnaces 
+			Saulaces Akes Absyrtus Bagrat Ashot
+		}
+		female_names = {
+			Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Zenobia Satenik 
+		}
+
+	culture = {
+		albanian = { levy_template = levy_albanian }
+		ibero = {}
+		colchian = {}
+		svan = { levy_template = levy_svan }
+		nakh = { 
+			levy_template = levy_svan
+			graphical_culture = scythian_gfx
+		}
+	}
+	
+	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
+	
+	graphical_culture = anatolian_gfx
+	ethnicities = {
+		10 = caucasian
+	}
+}
