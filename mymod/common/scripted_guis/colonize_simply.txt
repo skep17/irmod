@@ -1,0 +1,37 @@
+colonize_simply = {
+	scope = province
+	saved_scopes = {
+		player
+	}
+	is_shown = {
+		has_owner = no
+        is_uninhabitable = no
+	}
+	ai_is_valid = {
+		always = no
+	}
+	is_valid = {
+		has_owner = no
+		is_uninhabitable = no
+		any_neighbor_province = {
+			owner = scope:player
+			controler = scope:player
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				total_population >= 1
+			}
+
+			set_owned_by = scope:player
+			scope:player = { pay_price = colonize_locals }
+		}
+
+		else = {
+			create_state_pop = freemen
+			set_owned_by = scope:player
+			scope:player = { pay_price = create_military_colonists }
+		}
+	}
+}

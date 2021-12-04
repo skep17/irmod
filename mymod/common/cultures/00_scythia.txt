@@ -1,8 +1,8 @@
 ﻿scythia = {
 	color = hsv { 0.2 0.5 0.8 }
-	
+
 	levy_template = levy_steppes
-	
+
 	primary = light_infantry
 	second = heavy_cavalry
 	flank = horse_archers
@@ -20,7 +20,7 @@
 	female_names = {
 		Ampratasene Amratasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Canca Dhrtirastre Jnati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Raknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarmawirne Tartvisara Tati Tisye Upatisye Uppal Uppalavarna Vasisthe Vitasake Yasaraksite Yasodhara
 	}
-	family = { 
+	family = {
 		Kausal.Kausal.Kausal.Kausalid
 		Gank.Gank.Gank.Gankari
 		Tenare.Tenare.Tenare.Tenarian
@@ -47,21 +47,19 @@
 		sarmatian = { levy_template = levy_sarmatian }
 		kharesmian = {}
 		derbiccan = { levy_template = levy_dahae }
-		sindi = {}
 		siraci = {}
-		maeotian = {}
 		sakan = {}
 		thyssagetaen = {}
 		legian = {}
 		agathyrsian = {}
 	}
-	
-	barbarian_names = { 
-		ACHAEI ALANI AORSI BUDINI CERCETAE DANDARII GELAE GETAE HENIOCHI 
+
+	barbarian_names = {
+		ACHAEI ALANI AORSI BUDINI CERCETAE DANDARII GELAE GETAE HENIOCHI
 		NEURI ROXOLANI SOANES URGI TOREATAE SINDI ARRECHI OBIDIACENI DOSCI AGRI
-		SITTACENI ASPURGIANI 
+		SITTACENI ASPURGIANI
 	}
-	
+
 	graphical_culture = scythian_gfx
 	ethnicities = {
 		10 = scythian

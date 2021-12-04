@@ -91,7 +91,7 @@
 	holy_site="omen_armazi"
 	province_rank="city"
 	religion="caucasian_religion"
-	terrain="plains"
+	terrain="farmland"
 	trade_goods="earthware"
 	nobles=
 	{

@@ -1,0 +1,103 @@
+country_decisions = {
+    invite_great_commander = {
+        potential = {
+            is_ai = no
+        }
+
+        allow = {
+            is_ai = no
+        }
+
+        effect = {
+            create_character = {
+                age = 18
+                culture = ROOT.culture
+                religion = ROOT.religion
+				add_martial = 10
+				add_trait = original_thinker
+			}
+        }
+
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+    invite_great_admiral = {
+        potential = {
+            is_ai = no
+        }
+
+        allow = {
+            is_ai = no
+        }
+
+        effect = {
+            create_character = {
+                age = 18
+                culture = ROOT.culture
+                religion = ROOT.religion
+				add_martial = 10
+				add_trait = coastal_raider
+			}
+        }
+
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+    invite_female = {
+        potential = {
+            is_ai = no
+        }
+
+        allow = {
+            is_ai = no
+        }
+
+        effect = {
+            create_character = {
+                female = yes
+                age = 18
+                culture = ROOT.culture
+                religion = ROOT.religion
+				add_trait = wise
+			}
+        }
+
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+    mass_conversion = {
+        potential = {
+            is_ai = no
+        }
+
+        allow = {
+            is_ai = no
+        }
+
+        effect = {
+            every_owned_province = {
+                every_pops_in_province = {
+                    if = {
+                        limit = {
+                            NOT = { culture_group = ROOT.culture_group }
+                            pop_type = nobles
+                        }
+
+                        set_pop_culture = ROOT.culture
+                        set_pop_religion = ROOT.religion
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+			factor = 0
+		}
+    }
+}

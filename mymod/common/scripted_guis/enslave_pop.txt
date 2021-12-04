@@ -1,4 +1,4 @@
-﻿assim_boom = {
+enslave_pop = {
 	scope = province
 	saved_scopes = {
 		player
@@ -17,15 +17,17 @@
 			weight = {
 				modifier = {
 					factor = 100
-					NOT = { pop_culture = root.owner.culture }
+					AND = {
+						NOT = { pop_culture = root.owner.culture }
+						NOT = { pop_type = slaves }
+					}
 				}
 			}
 			if = {
 				limit = {
-					NOT = { pop_culture = root.owner.culture }
+					NOT = { pop_type = slaves }
 				}
-				set_pop_culture = root.owner.culture
-				set_pop_religion = root.owner.religion
+				set_pop_type = slaves
 			}
 		}
 	}

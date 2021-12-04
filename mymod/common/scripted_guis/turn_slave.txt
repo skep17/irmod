@@ -1,0 +1,15 @@
+turn_slave = {
+	scope = province
+	saved_scopes = {
+		province
+	}
+	ai_is_valid = {
+		always = no
+	}
+	is_valid = {
+		always = yes
+	}
+	effect = {
+		set_pop_type = slaves
+	}
+}

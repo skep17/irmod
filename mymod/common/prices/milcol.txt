@@ -1,3 +1,12 @@
 create_military_settlers = {
 	manpower = 2
 }
+
+create_military_colonists = {
+	manpower = 2
+	gold = 20
+}
+
+colonize_locals = {
+	gold = 20
+}

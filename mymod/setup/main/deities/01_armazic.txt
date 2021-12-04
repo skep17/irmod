@@ -37,6 +37,21 @@ deity_manager = {
 			key = omen_ainina_and_danina
 			deity = deity_ainina_and_danina
 		}
+		1400 = {
+			key = omen_aguna
+			deity = deity_aguna
+		}
+		1401 = {
+			key = omen_barbale
+			deity = deity_barbale
+		}
+		1402 = {
+			key = omen_bochi
+			deity = deity_bochi
+		}
+		1403 = {
+			key = omen_tergvauli
+			deity = deity_tergvauli
+		}
 	}
 }
-

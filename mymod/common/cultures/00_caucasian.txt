@@ -1,7 +1,7 @@
 ﻿caucasian = {
-	
+
 	levy_template = levy_caucasian
-	
+
 	primary = light_infantry
 	second = heavy_cavalry
 	flank = horse_archers
@@ -9,9 +9,9 @@
 	primary_navy = tetrere
 	secondary_navy = octere
 	flank_navy = liburnian
-	
+
 	color = hsv { 0.12 0.45 0.68 }
-	
+
 	family = {
 			Arsacid.Arsacid.Arsacids.Arsacid
 			Artocid.Artocid.Artocids.Artocid
@@ -49,12 +49,12 @@
 			Tsatid.Tsatid.Tsatids.Tsatid
 		}
 		male_names = {
-			Pharnavaz Sauromaces Mirian Pharnajom Artaxias Artoces Arshak Pharsmanes Mihrdat Amazasp Ghadam Rev Vache Bacurius Aspacures 
-			Trdat Archil Mihr Vakhtang Dachi Adarnase Nerse Sumbat Gurgen Tsate Gubaz Kuji Anicetus Aiet Mithridates Machares Pharnaces 
+			Pharnavaz Sauromaces Mirian Pharnajom Artaxias Artoces Arshak Pharsmanes Mihrdat Amazasp Ghadam Rev Vache Bacurius Aspacures
+			Trdat Archil Mihr Vakhtang Dachi Adarnase Nerse Sumbat Gurgen Tsate Gubaz Kuji Anicetus Aiet Mithridates Machares Pharnaces
 			Saulaces Akes Absyrtus Bagrat Ashot
 		}
 		female_names = {
-			Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Zenobia Satenik 
+			Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Zenobia Satenik
 		}
 
 	culture = {
@@ -62,14 +62,124 @@
 		ibero = {}
 		colchian = {}
 		svan = { levy_template = levy_svan }
-		nakh = { 
+		nakh = {
 			levy_template = levy_svan
 			graphical_culture = scythian_gfx
+			male_names = {
+					Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+					Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptanne Kimne Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande Nandipale Nasme Natte Naradeve Nirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pancasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+					Pravare Priyadeve Ptompile Punaiyse Punakame Punaraksite Punicamndre Punyamitre Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Sincake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+					Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Waryaruci Waryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasini Wisikke Wrauske Yanayase Yarpalaske Yasa Yasawine Yase Yasonaka Yastare Yonge Yonu Ype Yudhisthire Yugaraje
+			}
+			female_names = {
+				Ampratasene Amratasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Canca Dhrtirastre Jnati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Raknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarmawirne Tartvisara Tati Tisye Upatisye Uppal Uppalavarna Vasisthe Vitasake Yasaraksite Yasodhara
+			}
+			family = {
+				Kausal.Kausal.Kausal.Kausalid
+				Gank.Gank.Gank.Gankari
+				Tenare.Tenare.Tenare.Tenarian
+				Ytarim.Ytarim.Ytarim.Ytarimid
+				Tripuskar.Tripuskar.Tripuskar.Tripuskaran
+				Dantapur.Dantapur.Dantapur.Dantapurian
+				Baransi.Baransi.Baransi.Baransian
+				Yurpaska.Yurpaska.Yurpaska.Yurpaskan
+				Rohini.Rohini.Rohini.Rohinian
+				Vaideh.Vaideh.Vaideh.Vaidan
+				Vaisali.Vaisali.Vaisali.Vaisalian
+				Iksvaku.Iksvaku.Iksvaku.Iksvakuian
+				Kausika.Kausika.Kausika.Kausikan
+				Sakke.Sakke.Sakke.Sakkan
+				Kasake.Kasake.Kasake.Kasakid
+				Yarkam.Yarkam.Yarkam.Yarkamid
+				Bharuka.Bharuka.Bharuka.Bharukid
+				Cadota.Cadota.Cadota.Cadotid
+				Lyam.Lyam.Lyam.Lyamid
+				Kunlyu.Kunlyu.Kunlyus.Kunlayad
+			}
+			ethnicities = {
+				10 = scythian
+			}
+		}
+		sindi = {
+			levy_template = levy_steppes
+			graphical_culture = scythian_gfx
+			male_names = {
+					Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+					Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptanne Kimne Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande Nandipale Nasme Natte Naradeve Nirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pancasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+					Pravare Priyadeve Ptompile Punaiyse Punakame Punaraksite Punicamndre Punyamitre Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Sincake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+					Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Waryaruci Waryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasini Wisikke Wrauske Yanayase Yarpalaske Yasa Yasawine Yase Yasonaka Yastare Yonge Yonu Ype Yudhisthire Yugaraje
+			}
+			female_names = {
+				Ampratasene Amratasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Canca Dhrtirastre Jnati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Raknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarmawirne Tartvisara Tati Tisye Upatisye Uppal Uppalavarna Vasisthe Vitasake Yasaraksite Yasodhara
+			}
+			family = {
+				Kausal.Kausal.Kausal.Kausalid
+				Gank.Gank.Gank.Gankari
+				Tenare.Tenare.Tenare.Tenarian
+				Ytarim.Ytarim.Ytarim.Ytarimid
+				Tripuskar.Tripuskar.Tripuskar.Tripuskaran
+				Dantapur.Dantapur.Dantapur.Dantapurian
+				Baransi.Baransi.Baransi.Baransian
+				Yurpaska.Yurpaska.Yurpaska.Yurpaskan
+				Rohini.Rohini.Rohini.Rohinian
+				Vaideh.Vaideh.Vaideh.Vaidan
+				Vaisali.Vaisali.Vaisali.Vaisalian
+				Iksvaku.Iksvaku.Iksvaku.Iksvakuian
+				Kausika.Kausika.Kausika.Kausikan
+				Sakke.Sakke.Sakke.Sakkan
+				Kasake.Kasake.Kasake.Kasakid
+				Yarkam.Yarkam.Yarkam.Yarkamid
+				Bharuka.Bharuka.Bharuka.Bharukid
+				Cadota.Cadota.Cadota.Cadotid
+				Lyam.Lyam.Lyam.Lyamid
+				Kunlyu.Kunlyu.Kunlyus.Kunlayad
+			}
+			ethnicities = {
+				10 = scythian
+			}
+		}
+		maeotian = {
+			levy_template = levy_steppes
+			graphical_culture = scythian_gfx
+			male_names = {
+					Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+					Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptanne Kimne Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande Nandipale Nasme Natte Naradeve Nirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pancasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+					Pravare Priyadeve Ptompile Punaiyse Punakame Punaraksite Punicamndre Punyamitre Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Sincake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+					Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Waryaruci Waryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasini Wisikke Wrauske Yanayase Yarpalaske Yasa Yasawine Yase Yasonaka Yastare Yonge Yonu Ype Yudhisthire Yugaraje
+			}
+			female_names = {
+				Ampratasene Amratasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Canca Dhrtirastre Jnati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Raknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarmawirne Tartvisara Tati Tisye Upatisye Uppal Uppalavarna Vasisthe Vitasake Yasaraksite Yasodhara
+			}
+			family = {
+				Kausal.Kausal.Kausal.Kausalid
+				Gank.Gank.Gank.Gankari
+				Tenare.Tenare.Tenare.Tenarian
+				Ytarim.Ytarim.Ytarim.Ytarimid
+				Tripuskar.Tripuskar.Tripuskar.Tripuskaran
+				Dantapur.Dantapur.Dantapur.Dantapurian
+				Baransi.Baransi.Baransi.Baransian
+				Yurpaska.Yurpaska.Yurpaska.Yurpaskan
+				Rohini.Rohini.Rohini.Rohinian
+				Vaideh.Vaideh.Vaideh.Vaidan
+				Vaisali.Vaisali.Vaisali.Vaisalian
+				Iksvaku.Iksvaku.Iksvaku.Iksvakuian
+				Kausika.Kausika.Kausika.Kausikan
+				Sakke.Sakke.Sakke.Sakkan
+				Kasake.Kasake.Kasake.Kasakid
+				Yarkam.Yarkam.Yarkam.Yarkamid
+				Bharuka.Bharuka.Bharuka.Bharukid
+				Cadota.Cadota.Cadota.Cadotid
+				Lyam.Lyam.Lyam.Lyamid
+				Kunlyu.Kunlyu.Kunlyus.Kunlayad
+			}
+			ethnicities = {
+				10 = scythian
+			}
 		}
 	}
-	
+
 	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
-	
+
 	graphical_culture = anatolian_gfx
 	ethnicities = {
 		10 = caucasian
