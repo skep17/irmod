@@ -23,7 +23,7 @@
 	# Activity Speeds
 	growing_pop = 0.0
 	convert = 0.6
-	assimilate = 0.6
+	assimilate = 0
 	promote = 10
 	demote = 0
 	migrant = 0

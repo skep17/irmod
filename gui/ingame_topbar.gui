@@ -621,11 +621,11 @@ vbox = {
 			flowcontainer = {
 				name = "pause text"
 				parentanchor = hcenter|top
-				position = { 0 90 }
+				position = { 0 66 }
 				visible = "[IsGamePaused]"
 				background = {
 					shaderfile = "gfx/FX/pdxgui_default.shader"
-					alpha = 0.6
+					alpha = 0.55
 					spriteType = Corneredtiled
 					spriteborder = { 40 0 }
 					texture = "gfx/interface/base_parts/pause_banner.dds"		
@@ -1120,13 +1120,16 @@ vbox = {
 					
 					TopBarWindowButton = {
 						position = { 4 2 }
+						
+						
+						
 						blockoverride "Details"
 						{
 							visible = "[Not(IsGameViewOpen('mission'))]"
 							onclick = "[ToggleGameView('mission')]"
-							tooltip = "MISSION_MENU"
+							tooltip = "[SelectLocalization( InGameTopbar.IsTutorialActive, 'TUTORIAL_MISSION_MENU', 'MISSION_MENU' )]"
 							shortcut = "top_bar_12"
-							
+							enabled = "[Not( InGameTopbar.IsTutorialActive )]"
 							# ToDo: Add Sound.
 							clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
 							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
@@ -1596,7 +1599,7 @@ vbox = {
 		
 		icon = {
 			texture = "gfx/interface/topbar/flag_shadow.dds"
-			tooltip = "[InGameTopbar.GetFlagDesc]"
+			#tooltip = "[InGameTopbar.GetFlagDesc]"
 		}
 		
 		button = {
@@ -1609,7 +1612,8 @@ vbox = {
             framesize = { 155 355 }
             position = { -14 -115 }
             onclick = "[ToggleGameView('overview')]"
-            tooltip = "NATION_OVERVIEW_MENU"
+            #tooltip = "NATION_OVERVIEW_MENU"
+            tooltip = "[InGameTopbar.GetFlagDesc]"
             
 			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
             oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
@@ -1626,12 +1630,12 @@ vbox = {
             }
         }
 		
-		widget = {
-			position = { 56 132 }
-			size = { 60 68 }
-			tooltip = "MACRO_BUILDER_MENU"
-			shortcut = macro_builder
-		}
+		#widget = {
+		#	position = { 56 132 }
+		#	size = { 60 68 }
+		#	tooltip = "MACRO_BUILDER_MENU"
+		#	shortcut = macro_builder
+		#}
 
 		base_window = {
 			position = { 1 1 }
@@ -1836,8 +1840,8 @@ vbox = {
 				}
 				icon = {
 					using = flat_background_white
-					size = { 30 30 }
-					position = { 44 0 }
+					size = { 32 32 }
+					position = { 52 2 }
 					alwaystransparent = yes
 					parentanchor = left|vcenter
 					modify_texture = {
@@ -1846,9 +1850,9 @@ vbox = {
 						blend_mode = alphamultiply
 					}
 				}
-			}
-			
+			}	
 		}
+
 		window = {
 			name = "date"
 			size = { 490 46 }
@@ -2054,27 +2058,6 @@ vbox = {
 			}
 		}
 		
-		
-		
-		### LAGGING PLAYER NOTIFICATION
-		widget = { #TODO Rework
-			using = ScrollMessageBackground
-			using = clickthrough_blocker
-			size = { 210 100 }
-			position = { -100 -298 }
-			parentanchor = bottom|right
-			visible = "[GetPlayerIsLagging]"
-			
-			textbox = {
-				size = { 180 70 }
-				position = { 14 16 }
-				using = MarbleButtonFont
-				multiline = yes
-				text = "[GetLaggingPlayerString]"
-				align = center|nobaseline
-			}
-		}
-		
 		###
 		textbox = { #TODO Rework
 			position = { 0 400 }
@@ -2231,6 +2214,30 @@ vbox = {
 				on_finish = "[PdxGuiWidget.FindChild('event_queue_hide').Show]"
 				on_finish = "[PdxGuiWidget.FindChild('event_queue_show').Hide]"
 			
+			}
+		}
+		### LAGGING PLAYER NOTIFICATION
+		widget = {
+			#using = ScrollMessageBackground
+			using = NoninteractableBGWhite 
+			using = clickthrough_blocker
+			size = { 274 70 }
+			position = { -324 32 }
+			layer = top
+			parentanchor = top|right
+			visible = "[GetPlayerIsLagging]"
+			
+			textbox = {
+				size = { 274 70 }
+				using = BaseFontM
+				using = Black_FontColor
+				#autoresize = yes
+				multiline = yes
+				resizeparent = yes
+				elide = right
+				text = "[GetLaggingPlayerString]"
+				align = center|nobaseline
+				parentanchor = center
 			}
 		}
 	}
